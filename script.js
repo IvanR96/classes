@@ -17,32 +17,26 @@ let obj = {
 };
 */
 
-
+/*
 // getter example && setter example
 document.addEventListener("DOMContentLoaded", function(){
-let user = {
-    name: "John",
-    lastName: "Wick",
+let gameInfo = {
+    name: "Doom 3",
+    system: "PC",
 
-    get fullName() {
-        return ` My name is ${this.name} ${this.lastName}`;
+    get fullInfo(){
+        return `${this.name} is playable on ${this.system}`;
     },
 
-    set fullName(value){
-        [this.name, this.lastName] = value.split(" ");
+    set fullInfo(value){
+        gameInfo.fullInfo = value.split(" ");
     }
-
 };
 
-/* setter example*/  user.fullName = "Jay Leno";
+text = document.getElementById('info');
 
-let info = document.getElementById('info');
+text.textContent = gameInfo.fullInfo;
 
-info.textContent = user.fullName;
 
 });
-
-
-
-
-
+*/
