@@ -1,5 +1,5 @@
 
-// example of how setters and getters work
+// **********example of how setters and getters work*********
 /*
 
 
@@ -40,3 +40,8 @@ text.textContent = gameInfo.fullInfo;
 
 });
 */
+
+
+// *********CLASS EXAMPLE HERE BELOW**********
+
+
