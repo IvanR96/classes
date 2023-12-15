@@ -104,3 +104,18 @@ user = new User(""); // error since name is too short
 
 
 // ************ BUTTON CLASS EXAMPLE*************
+/*
+class Button {
+    constructor(value){
+    this.value = value;
+    }
+
+    click = () => {
+        alert(this.value);
+    }
+}
+
+let button = new Button('Hello There');
+
+setTimeout(() => button.click(), 1000);
+*/
